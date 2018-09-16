@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #FFF;
+  background-color: #EEE3F0;
   font-family: 'Hind', sans-serif;
   font-size: 18px;
   position: relative;
@@ -87,7 +87,7 @@ ul {
   max-width: 1280px;
   z-index: 9999;
   position: relative;
-  background-color: white;
+  background-color: #EEE3F0;
   padding-bottom: 35%;
   margin-top: 10%;
 }
@@ -98,7 +98,7 @@ ul {
 
 /*image */
 .splash {
-  background: url("img/pynk-bg.png") no-repeat fixed 100%;
+  background-color: #EEE3F0;
   background-size: cover;
 }
 
@@ -193,7 +193,7 @@ ul {
 /*start parallax :D */
 
 .parallax-1 {
-  background: url("img/pynk-bg.png") no-repeat fixed 100%;
+  background-color: #EEE3F0;
   background-size: cover;
   text-align: center;
   height: 650px;
@@ -211,7 +211,7 @@ ul {
 }
 
 .parallax-2 {
-  background: url("img/pynk-bg.png") no-repeat fixed 100%;
+  background-color: #EEE3F0;
   background-size: cover;
   text-align: center;
   height: 850px;
@@ -229,7 +229,7 @@ ul {
 /*end parallax section */
 
 footer {
-  background: #262E37;
+  background-color: #C4D6E5;
   width: 100%;
   opacity: 0.9;
   margin-top: 3%;
@@ -239,7 +239,7 @@ footer {
 }
 
 footer p {
-  color: #fff;
+  color: #C4D6E5;
   text-align: center;
   padding: 6px;
 }
