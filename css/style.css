@@ -1,0 +1,173 @@
+html, body, .container {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: Garamond;
+  font-size: 14px;
+  line-height: 1.5;
+  background-color: #17202A;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+/* global */
+.container {
+  padding: 5px;
+  overflow-y: auto;
+  background: url('../img/wb-vol-tall.jpg') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  position: fixed;
+  background: #17202A;
+  color: #CACFD2;
+  min-height: 42px;
+  width: 100%;
+}
+
+header a {
+  color: #CACFD2;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #brand {
+  float: center;
+  padding-top: 5px;
+  padding-left: 60px;
+}
+
+header #brand .img-responsive {
+  max-height: 4%;
+  max-width: 4%;
+}
+
+header nav {
+  float: right;
+  padding: 30px;
+  margin-right: 4px;
+}
+
+header .highlight, header .current a {
+  color: #D7BDE2;
+  font-style: oblique;
+}
+
+header a:hover {
+  color: #D7BDE2;
+  font-weight: bold;
+}
+
+
+/* start index body  */
+#landing {
+  margin: 10px;
+  padding-top: 160px;
+  padding-left: 15px;
+  min-height: 420px;
+  text-align: center;
+  color: #CACFD2;
+}
+
+#landing .main h2 {
+  text-align: left;
+}
+
+#landing .main h3 {
+  text-align: left;
+}
+
+#landing .main h2 .maximo{
+  font-weight: bold;
+  font-style: normal;
+  font-size: 30px;
+  color: #808B96;
+}
+
+
+
+#landing .toplayer .aside-2 .side-geom{
+  max-height: 120px;
+  max-width: auto;
+  padding-top: 30px;
+
+}
+
+.aside-1 {
+  float: left;
+}
+
+.aside-2 {
+  float: right;
+  margin-top: 160px;
+}
+
+.container #boxes .aside .box1 {
+  float: left;
+}
+
+.container #boxes .aside .box2 {
+  float: right;
+}
+
+ /* / end index body / */
+
+
+footer {
+  display: flex;
+  color: #CACFD2;
+  background-color: #17202A;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+
+footer .one ul {
+  color: #D7BDE2;
+  margin-top: 15px;
+  margin-left: -70px;
+  padding:0;
+}
+
+footer .one li {
+  display: inline;
+  padding: 0 5px 0 5px;
+}
+
+footer .one li .social-logos{
+  position: relative;
+  max-height: 30px;
+  width: auto;
+}
+footer .middle .side-geom{
+  padding: 0;
+  height: 75px;
+  width: auto;
+  padding-bottom: 10px;
+}
+footer .two .email{
+  padding-top: 5px;
+  max-height: 35px;
+  width: auto;
+}
