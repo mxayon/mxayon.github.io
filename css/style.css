@@ -7,7 +7,7 @@ body {
   font-family: Garamond;
   font-size: 14px;
   line-height: 1.5;
-  background-color: #17202A;
+  background-color: #817B5F;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -31,7 +31,7 @@ ul {
 /* Header */
 header {
   position: fixed;
-  background: #17202A;
+  background: #817B5F;
   color: #CACFD2;
   min-height: 42px;
   width: 100%;
@@ -135,7 +135,7 @@ header a:hover {
 footer {
   display: flex;
   color: #CACFD2;
-  background-color: #17202A;
+  background-color: #817B5F;
   margin-top: 5px;
   margin-bottom: 5px;
   padding: 10px;
