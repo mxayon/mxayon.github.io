@@ -79,19 +79,28 @@ header a:hover {
 
 /* start project page */
 
-.container #row1, #row2 {
-  margin-top: 150px;
-  display: flex;
+#grid {
   color: #CACFD2;
-  font-size: 40px;
-  justify-content: space-around;
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+  padding-top: 120px;
 }
 
-.container .square {
-  display: flex;
-  min-width: 40%;
-  justify-content: center;
-  border: 1px solid #fff;
+#grid .card {
+  border: 1px solid #d3d3d3;
+  border-radius: .25rem;
+  min-height: 380px;
+
+}
+
+#grid .card .card-img img{
+  padding-top: 15px;
+  padding-left: 10%;
+  max-width: 80%;
+  max-height: auto;
+
 }
 
 /* end project page */
