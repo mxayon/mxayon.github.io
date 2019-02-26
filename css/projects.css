@@ -33,7 +33,7 @@ header {
   position: fixed;
   background: #817B5F;
   color: #CACFD2;
-  min-height: 42px;
+  min-height: 40px;
   width: 100%;
 }
 
@@ -50,21 +50,22 @@ header li {
   padding: 0 20px 0 20px;
 }
 
-header #brand {
-  float: center;
-  padding-top: 5px;
-  padding-left: 60px;
-}
-
 header #brand .img-responsive {
+  float: left;
+  padding-left: 25px;
+  padding-top: 15px;
+  min-width: 30px;
+  min-height: auto;
   max-height: 4%;
   max-width: 4%;
 }
 
+
 header nav {
   float: right;
-  padding: 30px;
   margin-right: 4px;
+  margin-bottom: 10px;
+  padding: 10px;
 }
 
 header .highlight, header .current a {
@@ -89,7 +90,8 @@ header a:hover {
 }
 
 #grid .card {
-  background-color: rgb(35, 65, 65, .5);
+  background-color: rgb(113, 192, 191, .5);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
   border-radius: .35rem;
   min-height: 380px;
 
@@ -112,16 +114,14 @@ footer {
   color: #CACFD2;
   background-color: #817B5F;
   margin-top: 5px;
-  margin-bottom: 5px;
-  padding: 10px;
   justify-content: space-around;
 }
 
 
 footer .one ul {
+  float: left;
   color: #D7BDE2;
   margin-top: 15px;
-  margin-left: -70px;
   padding:0;
 }
 
@@ -138,12 +138,65 @@ footer .one li .social-logos{
 }
 footer .middle .side-geom{
   padding: 0;
-  height: 75px;
-  width: auto;
+  max-height: 75px;
+  max-width: auto;
   padding-bottom: 10px;
 }
 footer .two .email{
   padding-top: 5px;
   max-height: 35px;
-  width: auto;
+  max-width: auto;
+}
+
+/* Media Queeries */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  header a {
+    font-size: 10px;
+  }
+
+  header li {
+    float: left;
+    display: inline;
+    padding: 0 10px 0 10px;
+  }
+
+  header #brand .img-responsive {
+    float: left;
+    padding-left: 25px;
+    padding-top: 17px;
+    margin-bottom: 15px;
+    min-width: 25px;
+    min-height: auto;
+  }
+
+  header nav {
+    float: right;
+    margin-right: 6px;
+    margin-bottom: 5px;
+    padding: 5px;
+  }
+  /* global */
+  .container {
+    margin-top: 45px;
+    padding: 5px;
+  }
+
+  footer {
+    padding: 0px;
+  }
+  footer .middle .side-geom{
+    max-height: 45px;
+    max-width: auto;
+    padding-bottom: 0px;
+  }
+  footer .two .email{
+    padding-bottom: 2px;
+    padding-top: 0px;
+    max-height: 40px;
+    max-width: auto;
+  }
+
+
 }
