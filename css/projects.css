@@ -83,7 +83,7 @@ header a:hover {
   color: #CACFD2;
   font-size: 20px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 15px;
   padding-top: 120px;
 }
@@ -94,6 +94,7 @@ header a:hover {
   min-height: 380px;
 
 }
+
 
 #grid .card .card-img img{
   padding-top: 15px;
