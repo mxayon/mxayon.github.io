@@ -90,7 +90,7 @@ header a:hover {
 }
 
 #grid .card {
-  background-color: rgb(113, 192, 191, .5);
+  background-color: rgba(104, 192, 84, .2);
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
   border-radius: .35rem;
   min-height: 380px;
