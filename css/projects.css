@@ -6,8 +6,8 @@ html, body, .container {
 body {
   font-family: Garamond;
   font-size: 14px;
-  line-height: 1.5;
-  background-color: #817B5F;
+  line-height: 1;
+  background-color: #17202A;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -31,7 +31,7 @@ ul {
 /* Header */
 header {
   position: fixed;
-  background: #817B5F;
+  background: #17202A;
   color: #CACFD2;
   min-height: 40px;
   width: 100%;
@@ -90,7 +90,7 @@ header a:hover {
 }
 
 #grid .card {
-  background-color: rgba(104, 192, 84, .2);
+  background-color: rgba(129, 123, 95, .3);
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
   border-radius: .35rem;
   min-height: 380px;
@@ -101,9 +101,19 @@ header a:hover {
 #grid .card .card-img img{
   padding-top: 15px;
   padding-left: 10%;
-  max-width: 80%;
+  max-width: 70%;
   max-height: auto;
+}
 
+#grid .card .card-text{
+}
+#grid .card .card-text p {
+  color: #CACFD2;
+  text-align: justify;
+  text-overflow: ellipsis;
+  font-size: 15px;
+  text-shadow: 1px 1px 2px black;
+  margin: 5px;
 }
 
 /* end project page */
@@ -112,7 +122,7 @@ header a:hover {
 footer {
   display: flex;
   color: #CACFD2;
-  background-color: #817B5F;
+  background-color: #17202A;
   margin-top: 5px;
   justify-content: space-around;
 }
