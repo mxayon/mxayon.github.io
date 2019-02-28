@@ -63,6 +63,7 @@ header #brand .img-responsive {
 
 header nav {
   float: right;
+  margin-top: 15px;
   margin-right: 4px;
   margin-bottom: 10px;
   padding: 10px;
@@ -76,6 +77,7 @@ header .highlight, header .current a {
 header a:hover {
   color: #D7BDE2;
   font-weight: bold;
+  font-style: oblique;
 }
 
 
@@ -87,6 +89,8 @@ header a:hover {
   min-height: 420px;
   text-align: center;
   color: #CACFD2;
+  text-shadow: 1px 1px 2px black;
+
 }
 
 #landing .main h2 {
