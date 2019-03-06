@@ -83,9 +83,8 @@ header a:hover {
 
 /* start index body  */
 #landing {
-  margin: 10px;
   padding-top: 160px;
-  padding-left: 15px;
+  margin-left: 20px;
   min-height: 420px;
   text-align: center;
   color: #CACFD2;
