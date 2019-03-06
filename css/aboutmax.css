@@ -102,19 +102,30 @@ header a:hover {
   min-height: 380px;
 }
 
-#text-1 p {
+#text-1 .aboutspiel {
   padding-top: 20px;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 2px 2px 3px black;
   margin: 15px;
   text-align: justify;
   text-indent: 2em;
 }
 
-#text-1 p:first-letter {
-font-size: 3em;
-font-family: "Edwardian Script ITC", "Brush Script MT", cursive;
+#text-1 .aboutspiel:first-child:first-letter {
+  font-size: 5em;
+  font-family: 'Fredericka the Great', cursive;
+  float: left;
+  margin-left: -35px;
+  margin-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: .15em;
+
 }
-#text-1 p:first-line { line-height: 100%; }
+
+
+#text-1 .aboutspiel:first-child:first-line {
+  line-height: 150%;
+}
 
 .inside {
   display: grid;
