@@ -87,29 +87,59 @@ header a:hover {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 15px;
-  padding-top: 120px;
+  padding-top: 80px;
 }
 
 #grid .card {
-  background-color: rgba(129, 123, 95, .3);
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
-  border-radius: .35rem;
-  min-height: 380px;
+  background-color: rgba(129, 123, 95, .6);
+  border-radius: .40em;
+  min-height: 420px;
   text-align: center;
-
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, .9);
 }
 
 
 #grid .card .card-img img{
-  padding-top: 15px;
-  padding-left: 10%;
+  align-items: center;
+  padding-top: 25px;
   max-width: 70%;
   max-height: auto;
+  margin-bottom: 13px;
 }
 
-#grid .card .card-text a{
-  background-color: #D7BDE2;
 
+
+#grid .card .card-text button {
+  width: 140px;
+  height: 45px;
+  font-size: 11px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: rgba(129, 123, 95, .7);
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+#grid .card .card-text button a {
+  text-decoration: none;
+  padding: 5px;
+  color: #D7BDE2;
+  text-shadow: 2px 2px 2px grey;
+  text-align: justify;
+}
+
+#grid .card .card-text button:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
 }
 
 
@@ -119,7 +149,8 @@ header a:hover {
   text-overflow: ellipsis;
   font-size: 15px;
   text-shadow: 1px 1px 2px black;
-  margin: 5px;
+  margin: 15px;
+  padding-top: 10px;
 }
 
 /* end project page */
