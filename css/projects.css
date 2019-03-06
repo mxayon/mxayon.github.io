@@ -95,6 +95,8 @@ header a:hover {
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
   border-radius: .35rem;
   min-height: 380px;
+  text-align: center;
+
 }
 
 
@@ -105,8 +107,12 @@ header a:hover {
   max-height: auto;
 }
 
-#grid .card .card-text{
+#grid .card .card-text a{
+  background-color: #D7BDE2;
+
 }
+
+
 #grid .card .card-text p {
   color: #CACFD2;
   text-align: justify;
