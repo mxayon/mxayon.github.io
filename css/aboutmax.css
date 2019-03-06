@@ -96,7 +96,7 @@ header a:hover {
 }
 
 #text-1 {
-  background-color: rgba(129, 123, 95, .3);
+  background-color: rgba(129, 123, 95, .6);
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
   border-radius: .35rem;
   min-height: 380px;
@@ -136,10 +136,10 @@ header a:hover {
 }
 
 .inside img{
-  max-width: 60%;
+  max-width: 80%;
   max-height: auto;
   padding-left: 80px;
-  padding-bottom: 130px;
+  margin-top: -50px;
 }
 
 
