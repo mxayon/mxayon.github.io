@@ -92,7 +92,7 @@ header a:hover {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 2fr));
   grid-gap: 15px;
-  padding-top: 120px;
+  padding-top: 60px;
 }
 
 #text-1 {
@@ -104,7 +104,7 @@ header a:hover {
 
 #text-1 .aboutspiel {
   padding-top: 20px;
-  text-shadow: 2px 2px 3px black;
+  text-shadow: 2px 2px 2px black;
   margin: 15px;
   text-align: justify;
   text-indent: 2em;
@@ -122,6 +122,10 @@ header a:hover {
 
 }
 
+#text-1 .aboutspiel a {
+  color: #D7BDE2;
+}
+
 
 #text-1 .aboutspiel:first-child:first-line {
   line-height: 150%;
@@ -129,7 +133,6 @@ header a:hover {
 
 .inside {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 2fr));
   grid-gap: 15px;
   padding-top: 100px;
 
@@ -139,12 +142,27 @@ header a:hover {
   max-width: 80%;
   max-height: auto;
   padding-left: 80px;
-  margin-top: -50px;
+  margin-top: 60px;
 }
 
-.longcard #text-2 p{
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+
+#vid-inside {
+  background-color: rgba(129, 123, 95, .6);
+  text-align: center;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+  border-radius: .35rem;
+}
+#text-2 {
+  background-color: rgba(129, 123, 95, .6);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+  border-radius: .35rem;
+  min-height: 380px;
+  text-align: center;
+}
+
+#text-2 ul{
   text-shadow: 2px 2px 3px black;
+  padding-top: 50px;
 }
 
 /* end about page */
