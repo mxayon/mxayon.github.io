@@ -159,7 +159,7 @@ footer .one li {
  justify-content: space-between;
 }
 
-footer .one li .social-logos{
+footer .one li {
  position: relative;
  max-height: 30px;
  width: auto;
