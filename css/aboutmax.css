@@ -167,7 +167,6 @@ header a:hover {
 
 /* end about page */
 
-
 footer {
   display: flex;
   color: #CACFD2;
@@ -192,7 +191,7 @@ footer .one li {
 
 footer .one li .social-logos{
   position: relative;
-  max-height: 20px;
+  max-height: 30px;
   width: auto;
 }
 footer .middle .side-geom{
@@ -201,7 +200,7 @@ footer .middle .side-geom{
   max-width: auto;
   padding-bottom: 10px;
 }
-footer .two .email{
+footer .two .chronomap{
   padding-top: 5px;
   max-height: 35px;
   max-width: auto;
