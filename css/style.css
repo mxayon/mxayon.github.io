@@ -153,13 +153,13 @@ footer .one ul {
  padding:0;
 }
 
-footer .one {
+footer .one li {
  display: inline;
  padding: 0 5px 0 5px;
  justify-content: space-between;
 }
 
-footer .one {
+footer .one li .social-logos{
  position: relative;
  max-height: 30px;
  width: auto;
@@ -170,7 +170,7 @@ footer .middle .side-geom{
  max-width: auto;
  padding-bottom: 10px;
 }
-footer .two{
+footer .two .email{
  padding-top: 5px;
  max-height: 35px;
  max-width: auto;
