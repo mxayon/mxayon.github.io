@@ -153,13 +153,13 @@ footer .one ul {
  padding:0;
 }
 
-footer .one li {
+footer .one {
  display: inline;
  padding: 0 5px 0 5px;
  justify-content: space-between;
 }
 
-footer .one li {
+footer .one {
  position: relative;
  max-height: 30px;
  width: auto;
