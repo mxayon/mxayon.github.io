@@ -180,7 +180,7 @@ footer .one li {
 
 footer .one li .social-logos{
   position: relative;
-  max-height: 30px;
+  max-height: 52px;
   width: auto;
 }
 footer .middle .side-geom{
@@ -189,9 +189,9 @@ footer .middle .side-geom{
   max-width: auto;
   padding-bottom: 10px;
 }
-footer .two .chronomap{
+footer .two .chrono{
   padding-top: 5px;
-  max-height: 35px;
+  max-height: 65px;
   max-width: auto;
 }
 
@@ -234,14 +234,14 @@ footer .two .chronomap{
     padding: 0px;
   }
   footer .middle .side-geom{
-    max-height: 55px;
+    max-height: 45px;
     max-width: auto;
     padding-bottom: 0px;
   }
   footer .two .email{
     padding-bottom: 2px;
     padding-top: 0px;
-    max-height: 65px;
+    max-height: 40px;
     max-width: auto;
   }
 
