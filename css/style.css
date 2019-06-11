@@ -18,7 +18,7 @@ body {
 .container {
   padding: 5px;
   overflow-y: auto;
-  background: url('../img/wb-vol-tall.jpg') no-repeat;
+  background: url('../img/mayon.gif') no-repeat;
   background-size: contain;
   background-position: center;
 }
