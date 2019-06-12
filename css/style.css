@@ -12,6 +12,11 @@ body {
   flex-direction: column;
   justify-content: space-between;
   overflow: hidden;
+  padding-right: 5px;
+}
+
+body a {
+  color: #D7BDE2;
 }
 
 /* global */
