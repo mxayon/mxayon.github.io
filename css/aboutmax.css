@@ -18,7 +18,7 @@ body {
 .container {
   padding: 5px;
   overflow-y: auto;
-  background: url('../img/wb-vol-tall.jpg') no-repeat;
+  background: url('../img/mayon.gif') no-repeat;
   background-size: contain;
   background-position: center;
 }
@@ -41,7 +41,7 @@ header a {
   color: #CACFD2;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 header li {
@@ -88,7 +88,7 @@ header a:hover {
 
 .longcard {
   color: #CACFD2;
-  font-size: 15px;
+  font-size: 16px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 2fr));
   grid-gap: 15px;
@@ -104,6 +104,7 @@ header a:hover {
 
 #text-1 .aboutspiel {
   padding-top: 20px;
+  font-size: 16px;
   text-shadow: 2px 2px 2px black;
   margin: 15px;
   text-align: justify;
