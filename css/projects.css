@@ -101,10 +101,10 @@ header a:hover {
 
 #grid .card .card-img img{
   align-items: center;
-  padding-top: 25px;
+  margin-top: 45px;
   max-width: 70%;
   max-height: auto;
-  margin-bottom: 13px;
+  margin-bottom: 3px;
 }
 
 
@@ -151,6 +151,10 @@ header a:hover {
   text-shadow: 1px 1px 2px black;
   margin: 15px;
   padding-top: 10px;
+}
+
+#grid .card .card-text p a {
+  color: #D7BDE2;
 }
 
 /* end project page */
