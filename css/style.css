@@ -5,7 +5,7 @@ html, body, .container {
 }
 
 body {
-  font: Questrial;
+  font-family: Questrial;
   font-size: 16px;
   line-height: 1.5;
   background-color: #17202A;
@@ -36,6 +36,7 @@ ul {
 
 /* Header */
 header {
+  font: Questrial;
   position: fixed;
   background: #17202A;
   color: #CACFD2;
@@ -95,11 +96,11 @@ header a:hover {
   text-align: center;
   color: #CACFD2;
   text-shadow: 1px 1px 2px black;
-
 }
 
 #landing .main h2 {
   text-align: left;
+  font-family: Questrial;
 }
 
 #landing .main h3 {
@@ -111,6 +112,7 @@ header a:hover {
   font-style: normal;
   font-size: 30px;
   color: #808B96;
+  font-family: Questrial;
 }
 
 
