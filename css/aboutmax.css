@@ -109,12 +109,12 @@ header a:hover {
   padding-top: 20px;
   text-shadow: 2px 2px 2px black;
   margin: 15px;
-  text-align: left;
-  text-indent: 1.5em;
+  text-align: justify;
+  text-indent: .2em;
   font-size: 1.16em;
 }
 
-#text-1 .aboutspiel:first-child:first-letter {
+#text-1 .aboutspiel:first-child:first-line {
   font-size: 5em;
   font-family: 'Questrial', bold;
   float: left;
@@ -137,8 +137,8 @@ header a:hover {
 
 .inside {
   display: grid;
-  grid-gap: 15px;
-  padding-top: 100px;
+  grid-gap: 25px;
+  padding-top: 150px;
 
 }
 
@@ -146,20 +146,9 @@ header a:hover {
   max-width: 80%;
   max-height: auto;
   padding-left: 50px;
-  margin-top: 20px;
+  margin-top: 160px;
 }
 
-
-#vid-inside {
-  background-color: rgba(123, 134, 140, .6);
-  text-align: center;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
-  border-radius: .35rem;
-}
-
-#vid-inside a {
-  color: #D7BDE2;
-}
 
 #text-2 {
   background-color: rgba(123, 134, 140, .6);
