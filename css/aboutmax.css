@@ -1,11 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Questrial);
 html, body, .container {
   height: 100%;
   margin: 0;
 }
 
 body {
-  font-family: Garamond;
-  font-size: 16px;
+  font-family: Questrial;
+  font-size: 15px;
   line-height: 1.5;
   background-color: #17202A;
   display: flex;
@@ -54,9 +55,9 @@ header li {
 
 header #brand .img-responsive {
   float: left;
-  padding-left: 25px;
+  padding-left: 5px;
   padding-top: 15px;
-  min-width: 30px;
+  min-width: 20px;
   min-height: auto;
   max-height: 4%;
   max-width: 4%;
@@ -90,10 +91,10 @@ header a:hover {
 
 .longcard {
   color: #CACFD2;
-  font-size: 16px;
+  font-size: 14px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 2fr));
-  grid-gap: 15px;
+  grid-gap: 10px;
   padding-top: 60px;
 }
 
@@ -108,17 +109,17 @@ header a:hover {
   padding-top: 20px;
   text-shadow: 2px 2px 2px black;
   margin: 15px;
-  text-align: justify;
-  text-indent: 2em;
+  text-align: left;
+  text-indent: 1.5em;
   font-size: 1.16em;
 }
 
 #text-1 .aboutspiel:first-child:first-letter {
   font-size: 5em;
-  font-family: 'Fredericka the Great', cursive;
+  font-family: 'Questrial', bold;
   float: left;
   margin-left: -35px;
-  margin-right: 25px;
+  margin-right: 5px;
   padding-top: 10px;
   padding-bottom: 10px;
   margin-top: .15em;
@@ -144,8 +145,8 @@ header a:hover {
 .inside img{
   max-width: 80%;
   max-height: auto;
-  padding-left: 80px;
-  margin-top: 60px;
+  padding-left: 50px;
+  margin-top: 20px;
 }
 
 
@@ -166,11 +167,15 @@ header a:hover {
   border-radius: .35rem;
   min-height: 380px;
   text-align: center;
+  font: Questrial;
+
 }
 
 #text-2 ul{
   text-shadow: 2px 2px 3px black;
   padding-top: 50px;
+  font: Questrial;
+
 }
 
 /* end about page */
