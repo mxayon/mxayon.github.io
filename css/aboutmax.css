@@ -99,15 +99,13 @@ header a:hover {
 }
 
 #text-1 {
-  background-color: rgba(123, 134, 140, .6);
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
   border-radius: .35rem;
   min-height: 380px;
 }
 
 #text-1 .aboutspiel {
   padding-top: 20px;
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 1px 1px 1px black;
   margin: 15px;
   text-align: justify;
   text-indent: .2em;
@@ -123,50 +121,39 @@ header a:hover {
   padding-top: 10px;
   padding-bottom: 10px;
   margin-top: .15em;
-
 }
 
 #text-1 .aboutspiel a {
   color: #D7BDE2;
 }
 
-
 #text-1 .aboutspiel:first-child:first-line {
   line-height: 150%;
 }
 
 .inside {
-  display: grid;
-  grid-gap: 25px;
-  padding-top: 150px;
-
-}
-
-.inside img{
-  max-width: 80%;
-  max-height: auto;
-  padding-left: 50px;
-  margin-top: 160px;
-}
-
-
-#text-2 {
-  background-color: rgba(123, 134, 140, .6);
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+  padding-top: 180px;
   border-radius: .35rem;
   min-height: 380px;
   text-align: center;
   font: Questrial;
-
+  text-shadow: 1px 1px 1px black;
 }
 
-#text-2 ul{
-  text-shadow: 2px 2px 3px black;
-  padding-top: 50px;
-  font: Questrial;
 
+#text-2 {
+  grid-gap: 1px;
+  padding-top: 10px;
+  text-align: center;
+  text-shadow: 1px 1px 1px black;
 }
 
+#text-2 img{
+  max-width: 90%;
+  max-height: auto;
+  padding-left: 50px;
+  margin-top: 20px;
+}
 /* end about page */
 
 footer {
@@ -176,7 +163,6 @@ footer {
   margin-top: 5px;
   justify-content: space-around;
 }
-
 
 footer .one ul {
   float: left;
@@ -204,7 +190,7 @@ footer .middle .side-geom{
 }
 footer .two .chronomap{
   padding-top: 5px;
-  max-height: 55px;
+  max-height: 45px;
   max-width: auto;
 }
 
