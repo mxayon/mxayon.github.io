@@ -148,7 +148,7 @@ header a:hover {
   text-shadow: 1px 1px 1px black;
 }
 
-#text-2 img{
+.inside img{
   max-width: 90%;
   max-height: auto;
   padding-left: 50px;
