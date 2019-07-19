@@ -89,42 +89,42 @@ header a:hover {
 
 /* start footer */
 
+ footer {
+   display: flex;
+   color: #CACFD2;
+   background-color: #17202A;
+   margin-top: 5px;
+   justify-content: space-around;
+   padding: 2px;
+ }
 
-footer {
- display: flex;
- color: #CACFD2;
- background-color: #17202A;
- margin-top: 5px;
- justify-content: space-around;
-}
+ footer .one ul {
+   color: #D7BDE2;
+   margin-top: 15px;
+   padding-bottom: 15px;
+ }
 
+ footer .one li {
+   display: inline;
+   padding: 0 5px 0 5px;
+   justify-content: space-between;
+ }
 
-footer .one ul {
- float: left;
- color: #D7BDE2;
- margin-top: 15px;
- padding:0;
-}
-
-footer .one li {
- display: inline;
- padding: 0 5px 0 5px;
- justify-content: space-between;
-}
-
-footer .one li .social-logos{
- position: relative;
- max-height: 55px;
- width: auto;
-}
+footer .one li .github{
+   position: relative;
+   max-height: 50px;
+   width: auto;
+   margin-bottom: 10px;
+ }
 footer .middle .side-geom{
- padding: 0;
- max-height: 75px;
- max-width: auto;
- padding-bottom: 10px;
-}
-footer .two .chronomap{
- padding-top: 5px;
- max-height: 45px;
- max-width: auto;
-}
+   padding: 0;
+   max-height: 65px;
+   max-width: auto;
+   padding-bottom: 10px;
+ }
+
+footer .two .twitter .tweet{
+   margin-top: 10px;
+   max-height: 45px;
+   max-width: auto;
+ }

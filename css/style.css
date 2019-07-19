@@ -148,14 +148,13 @@ header a:hover {
    background-color: #17202A;
    margin-top: 5px;
    justify-content: space-around;
+   padding: 2px;
  }
 
-
  footer .one ul {
-   float: left;
    color: #D7BDE2;
    margin-top: 15px;
-   padding:0;
+   padding-bottom: 15px;
  }
 
  footer .one li {
@@ -164,19 +163,21 @@ header a:hover {
    justify-content: space-between;
  }
 
-footer .one li .social-logos{
+footer .one li .github{
    position: relative;
-   max-height: 55px;
+   max-height: 50px;
    width: auto;
+   margin-bottom: 10px;
  }
 footer .middle .side-geom{
    padding: 0;
-   max-height: 75px;
+   max-height: 65px;
    max-width: auto;
    padding-bottom: 10px;
  }
-footer .two {
-   padding-top: 5px;
+
+footer .two .twitter .tweet{
+   margin-top: 10px;
    max-height: 45px;
    max-width: auto;
  }
@@ -217,14 +218,14 @@ footer .two {
  }
 
  footer {
-   padding: 0px;
+   padding: 5px;
  }
  footer .middle .side-geom{
-   max-height: 45px;
+   max-height: 35px;
    max-width: auto;
    padding-bottom: 0px;
  }
- footer .two {
+ footer .two .twitter{
    padding-bottom: 2px;
    padding-top: 0px;
    max-height: 40px;
