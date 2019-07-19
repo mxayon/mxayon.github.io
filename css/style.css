@@ -163,20 +163,21 @@ header a:hover {
    justify-content: space-between;
  }
 
-footer .one li .github{
+footer .one li .github {
    position: relative;
    max-height: 50px;
    width: auto;
    margin-bottom: 10px;
  }
-footer .middle .side-geom{
+
+footer .middle .side-geom {
    padding: 0;
    max-height: 65px;
    max-width: auto;
    padding-bottom: 10px;
  }
 
-footer .two .twitter .tweet{
+footer .two .twitter .tweet {
    margin-top: 10px;
    max-height: 45px;
    max-width: auto;
