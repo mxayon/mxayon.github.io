@@ -191,7 +191,7 @@ footer .middle .side-geom{
   max-width: auto;
   padding-bottom: 10px;
 }
-footer .two .chronomap{
+footer .two{
   padding-top: 5px;
   max-height: 45px;
   max-width: auto;
@@ -240,7 +240,7 @@ footer .two .chronomap{
     max-width: auto;
     padding-bottom: 0px;
   }
-  footer .two .email{
+  footer .two{
     padding-bottom: 2px;
     padding-top: 0px;
     max-height: 40px;
