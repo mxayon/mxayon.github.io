@@ -8,7 +8,10 @@ body {
   font-family: Questrial;
   font-size: 16px;
   line-height: 1.5;
-  background-color: #17202A;
+  background-color: #white;
+  background: url('../img/mx-bg.png') no-repeat;
+  background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -24,9 +27,6 @@ body a {
 .container {
   padding: 5px;
   overflow-y: auto;
-  background: url('../img/mayon.gif') no-repeat;
-  background-size: contain;
-  background-position: center;
 }
 
 ul {
@@ -38,17 +38,19 @@ ul {
 header {
   font: Questrial;
   position: fixed;
-  background: #17202A;
-  color: #CACFD2;
-  min-height: 40px;
+  background-color: #e0e0e0;
+  opacity: 75%;
+  color: #ffdd67;
+  min-height: 80px;
   width: 100%;
 }
 
 header a {
-  color: #CACFD2;
+  color: #ffe2e2;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 18px;
+  text-shadow: 1px 1px 2px #000000;
 }
 
 header li {
@@ -61,7 +63,7 @@ header #brand .img-responsive {
   float: left;
   padding-left: 25px;
   padding-top: 15px;
-  min-width: 30px;
+  min-width: 80px;
   min-height: auto;
   max-height: 4%;
   max-width: 4%;
@@ -77,14 +79,15 @@ header nav {
 }
 
 header .highlight, header .current a {
-  color: #D7BDE2;
+  color: #f6f6f6;
   font-style: oblique;
 }
 
 header a:hover {
-  color: #D7BDE2;
+  color: #ffe2e2;
   font-weight: bold;
   font-style: oblique;
+  text-shadow: 2px 2px #bad7df;
 }
 
 
@@ -94,7 +97,7 @@ header a:hover {
   margin-left: 20px;
   min-height: 420px;
   text-align: center;
-  color: #CACFD2;
+  color: #99ddcc;
   text-shadow: 1px 1px 2px black;
 }
 
@@ -103,19 +106,17 @@ header a:hover {
   font-family: Questrial;
 }
 
-#landing .main h3 {
-  text-align: left;
-}
-
 #landing .main h2 .maximo{
   font-weight: bold;
   font-style: normal;
   font-size: 30px;
-  color: #808B96;
+  color: #bfd8d5;
   font-family: Questrial;
 }
 
-
+#landing .main h3 {
+    text-align: left;
+}
 
 #landing .toplayer .aside-2 .side-geom{
   max-height: 120px;
@@ -145,42 +146,34 @@ header a:hover {
  footer {
    display: flex;
    color: #CACFD2;
-   background-color: #17202A;
-   margin-top: 5px;
+   background-color: #e0e0e0;
+   opacity: 50%;
    justify-content: space-around;
-   padding: 2px;
+   padding-top: 5px;
  }
 
- footer .one ul {
-   color: #D7BDE2;
-   margin-top: 15px;
-   padding-bottom: 15px;
- }
-
- footer .one li {
-   display: inline;
-   padding: 0 5px 0 5px;
-   justify-content: space-between;
- }
-
-footer .one li .github {
+footer .one .github {
    position: relative;
-   max-height: 50px;
+   max-height: 55px;
    width: auto;
-   margin-bottom: 10px;
+   margin: 10px;
+   filter: drop-shadow(1px 3px 2px #000000);
  }
 
-footer .middle .side-geom {
-   padding: 0;
-   max-height: 65px;
+
+footer .middle .linkedin {
+   max-height: 45px;
    max-width: auto;
+   padding-top: 15px;
    padding-bottom: 10px;
+   filter: drop-shadow(1px 3px 2px #000000);
  }
 
 footer .two .twitter .tweet {
    margin-top: 10px;
    max-height: 45px;
    max-width: auto;
+   filter: drop-shadow(1px 3px 2px #000000);
  }
 
 /* Media Queeries */
@@ -188,7 +181,7 @@ footer .two .twitter .tweet {
 @media (min-width: 320px) and (max-width: 480px) {
 
  header a {
-   font-size: 10px;
+   font-size: 14px;
  }
 
  header li {
@@ -202,14 +195,14 @@ footer .two .twitter .tweet {
    padding-left: 25px;
    padding-top: 17px;
    margin-bottom: 15px;
-   min-width: 25px;
+   min-width: 45px;
    min-height: auto;
  }
 
  header nav {
    float: right;
    margin-right: 6px;
-   margin-bottom: 5px;
+   margin-bottom: 15px;
    padding: 5px;
  }
  /* global */
@@ -219,7 +212,7 @@ footer .two .twitter .tweet {
  }
 
  footer {
-   padding: 5px;
+   padding: 2px;
  }
  footer .middle .side-geom{
    max-height: 35px;
