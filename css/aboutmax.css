@@ -1,254 +1,68 @@
-@import url(https://fonts.googleapis.com/css?family=Questrial);
-html, body, .container {
-  height: 100%;
-  margin: 0;
-}
-
-body {
-  font-family: Questrial;
-  font-size: 15px;
-  line-height: 1.5;
-  background-color: #17202A;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  overflow: hidden;
-  padding-right: 5px;
-}
-
-
-/* global */
 .container {
-  padding: 5px;
-  overflow-y: auto;
-  background: url('../img/mx-bg.png') no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-/* Header */
-header {
-  position: fixed;
-  background: #17202A;
-  color: #CACFD2;
-  min-height: 40px;
-  width: 100%;
-}
-
-header a {
-  color: #CACFD2;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 16px;
-}
-
-header li {
-  float: left;
-  display: inline;
-  padding: 0 20px 0 20px;
-}
-
-header #brand .img-responsive {
-  float: left;
-  padding-left: 5px;
-  padding-top: 15px;
-  min-width: 20px;
-  min-height: auto;
-  max-height: 4%;
-  max-width: 4%;
-}
-
-
-header nav {
-  float: right;
-  margin-right: 4px;
-  margin-bottom: 10px;
-  padding: 10px;
-}
-
-header .highlight, header .current a {
-  color: #D7BDE2;
-  font-style: oblique;
-}
-
-header a:hover {
-  color: #D7BDE2;
-  font-weight: bold;
-  font-style: oblique;
-}
-
-/* start about page */
-.container {
-  margin-top: 30px;
-  margin-left: 3ss0px;
-
+    margin-top: 30px;
+    margin-left: 10px;
 }
 
 .longcard {
-  color: #CACFD2;
-  font-size: 14px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 2fr));
-  grid-gap: 10px;
-  padding-top: 60px;
+    color: #f6f6f6;
+    font-size: 14px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 4fr));
+    grid-gap: 10px;
+    padding-top: 60px;
+    text-shadow: 1px 1px 1px black;
 }
 
 #text-1 {
-  border-radius: .35rem;
-  min-height: 380px;
-  background-color: rgba(123, 134, 140, .6);
-  border-radius: .40em;
-  box-shadow: 0px 10px 30px rgba(0, 0, 0, .9);
+    border-radius: .35rem;
+    min-height: 380px;
+    background-color: rgba(211, 211, 211, .6);
+    border-radius: .40em;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, .9);
 }
 
 #text-1 .aboutspiel {
-  padding-top: 20px;
-  text-shadow: 1px 1px 1px black;
-  margin: 15px;
-  text-align: justify;
-  text-indent: .2em;
-  font-size: 1.16em;
+    text-shadow: 1px 1px 1px black;
+    margin: 15px;
+    text-align: justify;
+    text-indent: .2em;
+    font-size: 1.16em;
 }
 
 #text-1 .aboutspiel:first-child:first-line {
-  font-size: 3.5em;
-  font-family: 'Questrial', bold;
-  float: left;
-  margin-left: -35px;
-  margin-right: 5px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-top: .15em;
+    font-size: 3.5em;
+    font-family: 'Questrial', bold;
+    float: left;
+    margin-left: -35px;
+    margin-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: .15em;
 }
 
 #text-1 .aboutspiel a {
-  color: #D7BDE2;
+    color: #D7BDE2;
 }
 
 #text-1 .aboutspiel:first-child:first-line {
-  line-height: 150%;
+    line-height: 150%;
 }
 
 .inside {
-  padding-top: 180px;
-  border-radius: .35rem;
-  min-height: 380px;
-  text-align: center;
-  font: Questrial;
-  text-shadow: 1px 1px 1px black;
+    color: #99ddcc;
+    padding-top: 180px;
+    border-radius: .35rem;
+    min-height: 380px;
+    text-align: center;
+    font: Questrial;
+    text-shadow: 1px 1px 1px black;
+    font-size: 1.76em;
 }
 
 
 #text-2 {
-  grid-gap: 1px;
-  padding-top: 10px;
-  text-align: center;
-  text-shadow: 1px 1px 1px black;
-}
-
-.inside img{
-  max-width: 70%;
-  max-height: auto;
-  padding-left: 50px;
-  margin-top: 20px;
-}
-/* end about page */
-
-
- footer {
-   display: flex;
-   color: #CACFD2;
-   background-color: #17202A;
-   margin-top: 5px;
-   justify-content: space-around;
-   padding: 2px;
- }
-
- footer .one ul {
-   color: #D7BDE2;
-   margin-top: 15px;
-   padding-bottom: 15px;
- }
-
- footer .one li {
-   display: inline;
-   padding: 0 5px 0 5px;
-   justify-content: space-between;
- }
-
-footer .one li .github{
-   position: relative;
-   max-height: 50px;
-   width: auto;
-   margin-bottom: 10px;
- }
-footer .middle .side-geom{
-   padding: 0;
-   max-height: 65px;
-   max-width: auto;
-   padding-bottom: 10px;
- }
-
-footer .two .twitter .tweet{
-   margin-top: 10px;
-   max-height: 45px;
-   max-width: auto;
- }
-
-/* Media Queeries */
-
-@media (min-width: 320px) and (max-width: 480px) {
-
-  header a {
-    font-size: 10px;
-  }
-
-  header li {
-    float: left;
-    display: inline;
-    padding: 0 10px 0 10px;
-  }
-
-  header #brand .img-responsive {
-    float: left;
-    padding-left: 25px;
-    padding-top: 17px;
-    margin-bottom: 15px;
-    min-width: 25px;
-    min-height: auto;
-  }
-
-  header nav {
-    float: right;
-    margin-right: 6px;
-    margin-bottom: 5px;
-    padding: 5px;
-  }
-  /* global */
-  .container {
-    margin-top: 45px;
-    padding: 5px;
-  }
-
-  footer {
-    padding: 0px;
-  }
-  footer .middle .side-geom{
-    max-height: 45px;
-    max-width: auto;
-    padding-bottom: 0px;
-  }
-  footer .two{
-    padding-bottom: 2px;
-    padding-top: 0px;
-    max-height: 40px;
-    max-width: auto;
-  }
-
-
+    grid-gap: 1px;
+    padding-top: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
 }
