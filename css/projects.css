@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Questrial);
+/* @import url(https://fonts.googleapis.com/css?family=Questrial);
 
 html, body, .container {
   height: 100%;
@@ -17,7 +17,6 @@ body {
   overflow: hidden;
 }
 
-/* global */
 .container {
   padding: 5px;
   overflow-y: auto;
@@ -31,7 +30,6 @@ ul {
   padding: 0;
 }
 
-/* Header */
 header {
   position: fixed;
   background: #17202A;
@@ -160,8 +158,10 @@ header a:hover {
   color: #D7BDE2;
 }
 
-/* end project page */
 
+
+/* end project page */
+/*
  footer {
    display: flex;
    color: #CACFD2;
@@ -200,57 +200,4 @@ footer .two .twitter .tweet{
    margin-top: 10px;
    max-height: 45px;
    max-width: auto;
- }
-
-/* Media Queeries */
-
-@media (min-width: 320px) and (max-width: 480px) {
-
-  header a {
-    font-size: 10px;
-  }
-
-  header li {
-    float: left;
-    display: inline;
-    padding: 0 10px 0 10px;
-  }
-
-  header #brand .img-responsive {
-    float: left;
-    padding-left: 25px;
-    padding-top: 17px;
-    margin-bottom: 15px;
-    min-width: 25px;
-    min-height: auto;
-  }
-
-  header nav {
-    float: right;
-    margin-right: 6px;
-    margin-bottom: 5px;
-    padding: 5px;
-  }
-  /* global */
-  .container {
-    margin-top: 45px;
-    padding: 5px;
-  }
-
-  footer {
-    padding: 0px;
-  }
-  footer .middle .side-geom{
-    max-height: 35px;
-    max-width: auto;
-    padding-bottom: 0px;
-  }
-  footer .two .twitter{
-    padding-bottom: 2px;
-    padding-top: 0px;
-    max-height: 40px;
-    max-width: auto;
-  }
-
-
-}
+ } */
