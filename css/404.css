@@ -1,130 +1,31 @@
-@import url(https://fonts.googleapis.com/css?family=Questrial);
-html, body, .container {
-  height: 100%;
-  margin: 0;
-}
 
 body {
-  font-family: Questrial;
-  font-size: 16px;
-  line-height: 1.5;
-  background-color: #17202A;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  overflow: hidden;
+    background-image: url('../img/bg-no-mx.png');
 }
-
 /* global */
 .container {
   padding: 5px;
+  margin-top: 35px;
   overflow-y: auto;
-  background: url('../img/robot404.gif') no-repeat;
-  background-size: 45%;
+  background: url('../img/eastwood-fatal-error.png') no-repeat;
+  background-size: 75%;
   background-position: center;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-/* Header */
-header {
-  position: fixed;
-  background: #17202A;
-  color: #CACFD2;
-  min-height: 42px;
-  width: 100%;
-}
-
-header a {
-  color: #CACFD2;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 16px;
-}
-
-header li {
-  float: left;
-  display: inline;
-  padding: 0 20px 0 20px;
-}
-
-header #brand {
-  float: center;
-  padding-top: 5px;
-  padding-left: 60px;
-}
-
-header #brand .img-responsive {
-  max-height: 4%;
-  max-width: 4%;
-}
-
-header nav {
-  float: right;
-  padding: 30px;
-  margin-right: 4px;
-}
-
-header .highlight, header .current a {
-  color: #D7BDE2;
-  font-style: oblique;
-}
-
-header a:hover {
-  color: #D7BDE2;
-  font-weight: bold;
-}
-
-/* end header */
 
 .container h2{
   text-align: center;
   margin-top: 400px;
-  color: #CACFD2;
+  color: #fff48f;
+  text-shadow: 2px 2px #000000;
+  animation: glow 1s ease-in-out infinite alternate;
 }
 
-
-/* start footer */
-
- footer {
-   display: flex;
-   color: #CACFD2;
-   background-color: #17202A;
-   margin-top: 5px;
-   justify-content: space-around;
-   padding: 2px;
- }
-
- footer .one ul {
-   color: #D7BDE2;
-   margin-top: 15px;
-   padding-bottom: 15px;
- }
-
- footer .one li {
-   display: inline;
-   padding: 0 5px 0 5px;
-   justify-content: space-between;
- }
-
-footer .one li .github{
-   position: relative;
-   max-height: 50px;
-   width: auto;
-   margin-bottom: 10px;
- }
-footer .middle .side-geom{
-   padding: 0;
-   max-height: 65px;
-   max-width: auto;
-   padding-bottom: 10px;
- }
-
-footer .two .twitter .tweet{
-   margin-top: 10px;
-   max-height: 45px;
-   max-width: auto;
- }
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #ffffff. 0 0 20px #ffffff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+        text-shadow: 0 0 20px #ffffff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
