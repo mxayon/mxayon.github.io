@@ -20,7 +20,7 @@ body {
 }
 
 body a {
-    color: #D7BDE2;
+    color: #99ddcc;
 }
 
 /* global */
@@ -118,11 +118,6 @@ header a:hover {
     text-align: left;
 }
 
-#landing .toplayer .aside-2 .side-geom{
-    max-height: 120px;
-    max-width: auto;
-    padding-top: 30px;
-}
 
 .aside-1 {
     float: left;
