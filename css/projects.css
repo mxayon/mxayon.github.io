@@ -21,8 +21,8 @@ body {
 .container {
   padding: 5px;
   overflow-y: auto;
-  background: url('../img/mayon.gif') no-repeat;
-  background-size: contain;
+  background: url('../img/mx-bg.png') no-repeat;
+  background-size: cover;
   background-position: center;
 }
 
