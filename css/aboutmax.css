@@ -51,19 +51,36 @@
 
 .inside {
     color: #99ddcc;
-    padding-top: 180px;
+    padding-top: 20px;
     border-radius: .35rem;
     min-height: 380px;
     text-align: center;
     font: Questrial;
     text-shadow: 1px 1px 1px black;
-    font-size: 1.76em;
+    font-size: 1.16em;
 }
 
+.inside #left {
+    float: left;
+    padding-left: 40px;
+}
+
+.inside #right{
+    margin-top: 20px;
+    float: right;
+}
 
 #text-2 {
     grid-gap: 1px;
     padding-top: 10px;
     text-align: center;
     text-shadow: 1px 1px 1px black;
+}
+
+.inside #about-photo .img-responsive {
+    float: center;
+    min-width: 380px;
+    min-height: auto;
+    max-height: auto;
+    max-width: 20%;
 }
