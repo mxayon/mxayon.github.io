@@ -38,7 +38,7 @@ ul {
 header {
     font: Questrial;
     position: fixed;
-    background-color: #e0e0e0;
+    background-color: #4e4e4e;
     opacity: 75%;
     color: #ffdd67;
     min-height: 80px;
@@ -141,7 +141,7 @@ header a:hover {
  footer {
    display: flex;
    color: #CACFD2;
-   background-color: #e0e0e0;
+   background-color: #4e4e4e;
    opacity: 50%;
    justify-content: space-around;
    padding-top: 5px;
