@@ -78,5 +78,7 @@
     min-height: auto;
     max-height: auto;
     max-width: 20%;
+    margin-left: 10px;
+    padding-left: 15px;
     opacity: .8;
 }
