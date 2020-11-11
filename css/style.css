@@ -86,7 +86,8 @@ header .highlight, header .current a {
 header a:hover {
     color: #bad7df;
     font-weight: bold;
-    /* text-shadow: 2px 2px #bad7df; */
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
 }
 
 
